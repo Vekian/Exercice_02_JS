@@ -1,0 +1,11 @@
+body {
+    background-color: aqua;
+}
+
+.container {
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: -450px;
+}
