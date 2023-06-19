@@ -1,0 +1,19 @@
+.conteneur {
+    display: flex;
+    text-align: center;
+    backdrop-filter: blur(60%);
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background: grey;
+    filter:blur(0.6vh);
+    transition: width 1s;
+  }
+
+  .box:hover {
+    filter: blur(0vh);
+    border: 2px solid red;
+  }
